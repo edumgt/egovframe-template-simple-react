@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
+    "cors": "^2.8.5",
     "egovframe-template-simple-react": "file:",
+    "express": "^5.1.0",
     "qs": "^6.11.0",
     "react": "^18.3.1",
     "react-datepicker": "^4.8.0",
@@ -35,7 +37,21 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "start": "node server.js"
   },
-  "proxy": "http://localhost:8080"
+  "proxy": "http://localhost:8080",
+  "description": "![react](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)\r ![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)\r ![nodejs](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)\r ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)\r ![vite](https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)  \r ![workflow](https://github.com/eGovFramework/egovframe-template-simple-react/actions/workflows/node.js.yml/badge.svg)",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edumgt/egovframe-template-simple-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edumgt/egovframe-template-simple-react/issues"
+  },
+  "homepage": "https://github.com/edumgt/egovframe-template-simple-react#readme"
 }

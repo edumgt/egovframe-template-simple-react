@@ -1,3 +1,10 @@
+## server.js 추가
+## node 특성 상
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`✅ Server running at http://0.0.0.0:${PORT}`);
+});
+으로 개방 필요
+
 # 표준프레임워크 심플홈페이지 FrontEnd
 
 ![react](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
