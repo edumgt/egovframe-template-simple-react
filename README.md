@@ -1,3 +1,5 @@
+## 수업 중 서버 기동 문제는 node js 의 서버 설정 문제로 다음 설정 필요
+
 ## server.js 추가
 ## node 특성 상
 app.listen(PORT, '0.0.0.0', () => {
